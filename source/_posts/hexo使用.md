@@ -13,6 +13,10 @@ hexo new xxx.md
 
 在对应的笔记目录下生成Markdown文件后，指定categories或者tag，然后开始写作。
 
+## Github托管
+1. 启动Github Action
+2. 增加一个workflow文件，要和本地使用的node版本一致
+
 ## 参考内容
 
 1. [Hexo官方网站](https://hexo.io/zh-cn/docs/)
