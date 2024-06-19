@@ -44,16 +44,16 @@ post_asset_folder: false
 relative_link: false
 future: true
 syntax_highlighter: highlight.js
-# highlight:
-#   line_number: true
-#   auto_detect: false
-#   tab_replace: ''
-#   wrap: true
-#   hljs: false
-# prismjs:
-#   preprocess: true
-#   line_number: true
-#   tab_replace: ''
+highlight:
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  preprocess: true
+  line_number: true
+  tab_replace: ''
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -103,20 +103,3 @@ theme: butterfly
 deploy:
   type: ''
 
-# Code highlight
-highlight:
-  enable: true
-  auto_detect: false
-  line_number: true
-  line_threshold: 0
-  tab_replace: ''
-  exclude_languages:
-    - example
-  wrap: true
-  hljs: false
-prismjs:
-  enable: false
-  preprocess: true
-  line_number: true
-  line_threshold: 0
-  tab_replace: ''
